@@ -106,3 +106,360 @@
 [38;5;73m[ citizen-server-impl] server thread hitch warning: timer interval of 159 milliseconds
 [38;5;73m[ citizen-server-impl] sync thread hitch warning: timer interval of 116 milliseconds
 [38;5;73m[ citizen-server-impl] Sending heartbeat to https://servers-ingress-live.fivem.net/ingress
+[38;5;73m[ citizen-server-impl] Sending heartbeat to https://servers-ingress-live.fivem.net/ingress
+[38;5;73m[ citizen-server-impl] Sending heartbeat to https://servers-ingress-live.fivem.net/ingress
+[38;5;73m[ citizen-server-impl] Sending heartbeat to https://servers-ingress-live.fivem.net/ingress
+[38;5;73m[ citizen-server-impl] Sending heartbeat to https://servers-ingress-live.fivem.net/ingress
+
+================================================================
+======== FXServer starting - 22/05/2021 à 16:04:06
+================================================================
+[38;5;161m[    c-scripting-core] Creating script environments for _cfx_internal
+[38;5;73m[ citizen-server-impl] Scanning resources.
+[38;5;73m[ citizen-server-impl] Found 35 resources.
+[38;5;161m[    c-scripting-core] Creating script environments for sessionmanager
+[38;5;73m[ citizen-server-impl] Started resource sessionmanager
+[38;5;161m[    c-scripting-core] Creating script environments for monitor
+[38;5;84m[      script:monitor] [txAdminClient] Version 3.7.0 starting...
+[38;5;73m[ citizen-server-impl] Started resource monitor
+[38;5;161m[    c-scripting-core] Creating script environments for mapmanager
+[38;5;73m[ citizen-server-impl] Started resource mapmanager
+[38;5;161m[    c-scripting-core] Creating script environments for yarn
+[38;5;73m[ citizen-server-impl] Started resource yarn
+[38;5;161m[    c-scripting-core] Creating script environments for webpack
+[38;5;73m[ citizen-server-impl] Started resource webpack
+[38;5;161m[    c-scripting-core] Creating script environments for chat
+[38;5;73m[ citizen-server-impl] Started resource chat
+[38;5;73m[ citizen-server-impl] Started resource spawnmanager
+[38;5;154m[   script:mapmanager] Started gametype Freeroam
+[38;5;73m[ citizen-server-impl] Started resource basic-gamemode
+[38;5;161m[    c-scripting-core] Creating script environments for hardcap
+[38;5;73m[ citizen-server-impl] Started resource hardcap
+[38;5;161m[    c-scripting-core] Creating script environments for mysql-async
+[38;5;73m[ citizen-server-impl] Started resource mysql-async
+[38;5;161m[    c-scripting-core] Creating script environments for async
+[38;5;73m[ citizen-server-impl] Started resource async
+[38;5;161m[    c-scripting-core] Creating script environments for essentialmode
+[38;5;34m[script:essentialmode] Instantiated instance of script SQLite.Main.
+[38;5;73m[ citizen-server-impl] Started resource essentialmode
+[38;5;161m[    c-scripting-core] Creating script environments for esplugin_mysql
+[38;5;73m[ citizen-server-impl] Started resource esplugin_mysql
+[38;5;161m[    c-scripting-core] Creating script environments for es_admin2
+[38;5;73m[ citizen-server-impl] Started resource es_admin2
+[38;5;161m[    c-scripting-core] Creating script environments for baseevents
+[38;5;73m[ citizen-server-impl] Started resource baseevents
+[38;5;163m[    c-resources-core] Could not find dependency cron for resource es_extended.
+[38;5;73m[ citizen-server-impl] Couldn't start resource es_extended.
+[38;5;163m[    c-resources-core] Could not find dependency cron for resource es_extended.
+[38;5;163m[    c-resources-core] Could not start dependency es_extended for resource esx_menu_default.
+[38;5;73m[ citizen-server-impl] Couldn't start resource esx_menu_default.
+[38;5;163m[    c-resources-core] Could not find dependency cron for resource es_extended.
+[38;5;163m[    c-resources-core] Could not start dependency es_extended for resource esx_menu_list.
+[38;5;73m[ citizen-server-impl] Couldn't start resource esx_menu_list.
+[38;5;163m[    c-resources-core] Could not find dependency cron for resource es_extended.
+[38;5;163m[    c-resources-core] Could not start dependency es_extended for resource esx_menu_dialog.
+[38;5;73m[ citizen-server-impl] Couldn't start resource esx_menu_dialog.
+[38;5;66m[          svadhesive] Authenticating server license key...
+[38;5;84m[      script:monitor] [txAdminClient] Threads and commands set up. All Ready.
+[38;5;34m[script:essentialmode] Performing version check against: https://api.kanersps.pw/em/version?version=6.4.2&uuid=c1859f4a-48a4-4b0d-9177-b7a1a1588196
+[38;5;34m[script:essentialmode] 
+[38;5;154m[   script:mapmanager] Started map fivem-map-skater
+[38;5;73m[ citizen-server-impl] Started resource fivem-map-skater
+[38;5;159m[  script:mysql-async] [mysql-async] [SUCCESS] Database server connection established.
+[38;5;34m[script:essentialmode] 
+[38;5;34m[script:essentialmode] [EssentialMode] Current version: 6.4.2
+[38;5;34m[script:essentialmode] [EssentialMode] Updater version: 6.4.2
+[38;5;34m[script:essentialmode] 
+[38;5;34m[script:essentialmode] [EssentialMode] Everything is nice and updated!
+[38;5;34m[script:essentialmode] 
+[38;5;34m[script:essentialmode] Support the developers: Hey! Would you like to support the developers, go to https://www.patreon.com/gdevelopment and get some nifty rewards!
+[38;5;66m[          svadhesive] Server license key authentication succeeded. Welcome!
+[38;5;73m[ citizen-server-impl]         fff                          
+[38;5;73m[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[38;5;73m[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[38;5;73m[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[38;5;73m[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[38;5;73m[ citizen-server-impl]                                      
+[38;5;73m[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://fantaagogo-r35vp7.users.cfx.re/
+[38;5;73m[ citizen-server-impl] -- [server notice: tebex_not_set]
+[38;5;73m[ citizen-server-impl] ================
+[38;5;73m[ citizen-server-impl] Monetize your server using Tebex! Visit https://tebex.io/fivem for more info.
+[38;5;73m[ citizen-server-impl] ================
+[38;5;73m[ citizen-server-impl] 
+
+================================================================
+======== FXServer starting - 22/05/2021 à 16:05:10
+================================================================
+[38;5;161m[    c-scripting-core] Creating script environments for _cfx_internal
+[38;5;73m[ citizen-server-impl] Scanning resources.
+[38;5;73m[ citizen-server-impl] Found 36 resources.
+[38;5;161m[    c-scripting-core] Creating script environments for sessionmanager
+[38;5;73m[ citizen-server-impl] Started resource sessionmanager
+[38;5;161m[    c-scripting-core] Creating script environments for monitor
+[38;5;84m[      script:monitor] [txAdminClient] Version 3.7.0 starting...
+[38;5;73m[ citizen-server-impl] Started resource monitor
+[38;5;161m[    c-scripting-core] Creating script environments for mapmanager
+[38;5;73m[ citizen-server-impl] Started resource mapmanager
+[38;5;161m[    c-scripting-core] Creating script environments for yarn
+[38;5;73m[ citizen-server-impl] Started resource yarn
+[38;5;161m[    c-scripting-core] Creating script environments for webpack
+[38;5;73m[ citizen-server-impl] Started resource webpack
+[38;5;161m[    c-scripting-core] Creating script environments for chat
+[38;5;73m[ citizen-server-impl] Started resource chat
+[38;5;73m[ citizen-server-impl] Started resource spawnmanager
+[38;5;154m[   script:mapmanager] Started gametype Freeroam
+[38;5;73m[ citizen-server-impl] Started resource basic-gamemode
+[38;5;161m[    c-scripting-core] Creating script environments for hardcap
+[38;5;73m[ citizen-server-impl] Started resource hardcap
+[38;5;161m[    c-scripting-core] Creating script environments for mysql-async
+[38;5;73m[ citizen-server-impl] Started resource mysql-async
+[38;5;161m[    c-scripting-core] Creating script environments for async
+[38;5;73m[ citizen-server-impl] Started resource async
+[38;5;161m[    c-scripting-core] Creating script environments for cron
+[38;5;73m[ citizen-server-impl] Started resource cron
+[38;5;161m[    c-scripting-core] Creating script environments for essentialmode
+[38;5;34m[script:essentialmode] Instantiated instance of script SQLite.Main.
+[38;5;73m[ citizen-server-impl] Started resource essentialmode
+[38;5;161m[    c-scripting-core] Creating script environments for esplugin_mysql
+[38;5;73m[ citizen-server-impl] Started resource esplugin_mysql
+[38;5;161m[    c-scripting-core] Creating script environments for es_admin2
+[38;5;73m[ citizen-server-impl] Started resource es_admin2
+[38;5;161m[    c-scripting-core] Creating script environments for baseevents
+[38;5;73m[ citizen-server-impl] Started resource baseevents
+[38;5;163m[    c-resources-core] Could not find dependency skinchanger for resource es_extended.
+[38;5;73m[ citizen-server-impl] Couldn't start resource es_extended.
+[38;5;163m[    c-resources-core] Could not find dependency skinchanger for resource es_extended.
+[38;5;163m[    c-resources-core] Could not start dependency es_extended for resource esx_menu_default.
+[38;5;73m[ citizen-server-impl] Couldn't start resource esx_menu_default.
+[38;5;163m[    c-resources-core] Could not find dependency skinchanger for resource es_extended.
+[38;5;163m[    c-resources-core] Could not start dependency es_extended for resource esx_menu_list.
+[38;5;73m[ citizen-server-impl] Couldn't start resource esx_menu_list.
+[38;5;163m[    c-resources-core] Could not find dependency skinchanger for resource es_extended.
+[38;5;163m[    c-resources-core] Could not start dependency es_extended for resource esx_menu_dialog.
+[38;5;73m[ citizen-server-impl] Couldn't start resource esx_menu_dialog.
+[38;5;66m[          svadhesive] Authenticating server license key...
+[38;5;84m[      script:monitor] [txAdminClient] Threads and commands set up. All Ready.
+[38;5;34m[script:essentialmode] Performing version check against: https://api.kanersps.pw/em/version?version=6.4.2&uuid=c1859f4a-48a4-4b0d-9177-b7a1a1588196
+[38;5;34m[script:essentialmode] 
+[38;5;154m[   script:mapmanager] Started map fivem-map-hipster
+[38;5;73m[ citizen-server-impl] Started resource fivem-map-hipster
+[38;5;159m[  script:mysql-async] [mysql-async] [SUCCESS] Database server connection established.
+[38;5;66m[          svadhesive] Server license key authentication succeeded. Welcome!
+[38;5;73m[ citizen-server-impl]         fff                          
+[38;5;73m[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[38;5;73m[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[38;5;73m[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[38;5;73m[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[38;5;73m[ citizen-server-impl]                                      
+[38;5;73m[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://fantaagogo-r35vp7.users.cfx.re/
+[38;5;34m[script:essentialmode] 
+[38;5;34m[script:essentialmode] [EssentialMode] Current version: 6.4.2
+[38;5;34m[script:essentialmode] [EssentialMode] Updater version: 6.4.2
+[38;5;34m[script:essentialmode] 
+[38;5;34m[script:essentialmode] [EssentialMode] Everything is nice and updated!
+[38;5;34m[script:essentialmode] 
+[38;5;34m[script:essentialmode] Support the developers: Hey! Would you like to support the developers, go to https://www.patreon.com/gdevelopment and get some nifty rewards!
+[38;5;73m[ citizen-server-impl] -- [server notice: tebex_not_set]
+[38;5;73m[ citizen-server-impl] ================
+[38;5;73m[ citizen-server-impl] Monetize your server using Tebex! Visit https://tebex.io/fivem for more info.
+[38;5;73m[ citizen-server-impl] ================
+[38;5;73m[ citizen-server-impl] 
+
+================================================================
+======== FXServer starting - 22/05/2021 à 16:07:44
+================================================================
+[38;5;161m[    c-scripting-core] Creating script environments for _cfx_internal
+[38;5;73m[ citizen-server-impl] Scanning resources.
+[38;5;73m[ citizen-server-impl] Found 37 resources.
+[38;5;161m[    c-scripting-core] Creating script environments for sessionmanager
+[38;5;73m[ citizen-server-impl] Started resource sessionmanager
+[38;5;161m[    c-scripting-core] Creating script environments for monitor
+[38;5;84m[      script:monitor] [txAdminClient] Version 3.7.0 starting...
+[38;5;73m[ citizen-server-impl] Started resource monitor
+[38;5;161m[    c-scripting-core] Creating script environments for mapmanager
+[38;5;73m[ citizen-server-impl] Started resource mapmanager
+[38;5;161m[    c-scripting-core] Creating script environments for yarn
+[38;5;73m[ citizen-server-impl] Started resource yarn
+[38;5;161m[    c-scripting-core] Creating script environments for webpack
+[38;5;73m[ citizen-server-impl] Started resource webpack
+[38;5;161m[    c-scripting-core] Creating script environments for chat
+[38;5;73m[ citizen-server-impl] Started resource chat
+[38;5;73m[ citizen-server-impl] Started resource spawnmanager
+[38;5;154m[   script:mapmanager] Started gametype Freeroam
+[38;5;73m[ citizen-server-impl] Started resource basic-gamemode
+[38;5;161m[    c-scripting-core] Creating script environments for hardcap
+[38;5;73m[ citizen-server-impl] Started resource hardcap
+[38;5;161m[    c-scripting-core] Creating script environments for mysql-async
+[38;5;73m[ citizen-server-impl] Started resource mysql-async
+[38;5;161m[    c-scripting-core] Creating script environments for async
+[38;5;73m[ citizen-server-impl] Started resource async
+[38;5;161m[    c-scripting-core] Creating script environments for cron
+[38;5;73m[ citizen-server-impl] Started resource cron
+[38;5;73m[ citizen-server-impl] Started resource skinchanger
+[38;5;161m[    c-scripting-core] Creating script environments for essentialmode
+[38;5;34m[script:essentialmode] Instantiated instance of script SQLite.Main.
+[38;5;73m[ citizen-server-impl] Started resource essentialmode
+[38;5;161m[    c-scripting-core] Creating script environments for esplugin_mysql
+[38;5;73m[ citizen-server-impl] Started resource esplugin_mysql
+[38;5;161m[    c-scripting-core] Creating script environments for es_admin2
+[38;5;73m[ citizen-server-impl] Started resource es_admin2
+[38;5;161m[    c-scripting-core] Creating script environments for baseevents
+[38;5;73m[ citizen-server-impl] Started resource baseevents
+[38;5;161m[    c-scripting-core] Creating script environments for es_extended
+[38;5;220m[  script:es_extended] [esx] [@events] load
+[38;5;220m[  script:es_extended] [esx] [@class] load
+[38;5;220m[  script:es_extended] [esx] [@account] load
+[38;5;220m[  script:es_extended] [esx] [@table] load
+[38;5;220m[  script:es_extended] [esx] [@string] load
+[38;5;220m[  script:es_extended] [esx] [@async] load
+[38;5;220m[  script:es_extended] [esx] [@command] load
+[38;5;220m[  script:es_extended] [esx] [@datastore] load
+[38;5;220m[  script:es_extended] [esx] [@db] load
+[38;5;220m[  script:es_extended] [esx] [@game.hud] load
+[38;5;220m[  script:es_extended] [esx] [@identity] load
+[38;5;220m[  script:es_extended] [esx] [@player] load
+[38;5;220m[  script:es_extended] [esx] [@input] load
+[38;5;220m[  script:es_extended] [esx] [@interact] load
+[38;5;220m[  script:es_extended] [esx] [@inventory] load
+[38;5;220m[  script:es_extended] [esx] [@math] load
+[38;5;220m[  script:es_extended] [esx] [@migrate] load
+[38;5;220m[  script:es_extended] [esx] [@utils] load
+[38;5;220m[  script:es_extended] [esx] [accessories] load
+[38;5;220m[  script:es_extended] [esx] [skin] load
+[38;5;220m[  script:es_extended] [esx] [society] load
+[38;5;220m[  script:es_extended] [esx] [voice] load
+[38;5;73m[ citizen-server-impl] Started resource es_extended
+[38;5;73m[ citizen-server-impl] Started resource esx_menu_default
+[38;5;73m[ citizen-server-impl] Started resource esx_menu_list
+[38;5;73m[ citizen-server-impl] Started resource esx_menu_dialog
+[38;5;66m[          svadhesive] Authenticating server license key...
+[38;5;84m[      script:monitor] [txAdminClient] Threads and commands set up. All Ready.
+[38;5;34m[script:essentialmode] Performing version check against: https://api.kanersps.pw/em/version?version=6.4.2&uuid=c1859f4a-48a4-4b0d-9177-b7a1a1588196
+[38;5;34m[script:essentialmode] 
+[38;5;154m[   script:mapmanager] Started map fivem-map-hipster
+[38;5;73m[ citizen-server-impl] Started resource fivem-map-hipster
+[38;5;159m[  script:mysql-async] [mysql-async] [SUCCESS] Database server connection established.
+[38;5;220m[  script:es_extended] [esx] [db] ensuring generated schemas
+[38;5;220m[  script:es_extended] [esx] [db] table accounts (name, owner, money)
+[38;5;220m[  script:es_extended] [esx] [db] table datastores (name, owner, data)
+[38;5;220m[  script:es_extended] [esx] [db] table inventories (name, owner, items)
+[38;5;220m[  script:es_extended] [esx] [db] table items (name, label, weight, rare, can_remove)
+[38;5;220m[  script:es_extended] [esx] [db] table job_grades (id, job_name, grade, name, label, salary, skin_male, skin_female)
+[38;5;220m[  script:es_extended] [esx] [db] table jobs (name, label)
+[38;5;220m[  script:es_extended] [esx] [db] table migrations (id, module, last)
+[38;5;220m[  script:es_extended] [esx] [db] table users (identifier, name, accounts, group, inventory, job, job_grade, loadout, position, is_dead, last_name, dob, is_male, accessories, first_name)
+[38;5;34m[script:essentialmode] 
+[38;5;34m[script:essentialmode] [EssentialMode] Current version: 6.4.2
+[38;5;34m[script:essentialmode] [EssentialMode] Updater version: 6.4.2
+[38;5;34m[script:essentialmode] 
+[38;5;34m[script:essentialmode] [EssentialMode] Everything is nice and updated!
+[38;5;34m[script:essentialmode] 
+[38;5;34m[script:essentialmode] Advertisement: Want to have EssentialMode pre-installed on a good and affordable server host? Go to the following link: https://zap-hosting.com/EssentialMode
+[38;5;66m[          svadhesive] Server license key authentication succeeded. Welcome!
+[38;5;159m[  script:mysql-async] [MariaDB:10.4.17-MariaDB] [WARNING] [es_extended] [223ms] CREATE TABLE IF NOT EXISTS `users` (
+[38;5;159m[  script:mysql-async]   `identifier` VARCHAR(40)  NOT NULL,
+[38;5;159m[  script:mysql-async]   `name` LONGTEXT DEFAULT NULL,
+[38;5;159m[  script:mysql-async]   `accounts` LONGTEXT DEFAULT NULL,
+[38;5;159m[  script:mysql-async]   `group` VARCHAR(64) DEFAULT 'user',
+[38;5;159m[  script:mysql-async]   `inventory` LONGTEXT DEFAULT NULL,
+[38;5;159m[  script:mysql-async]   `job` VARCHAR(32) DEFAULT 'unemployed',
+[38;5;159m[  script:mysql-async]   `job_grade` INT DEFAULT 0,
+[38;5;159m[  script:mysql-async]   `loadout` LONGTEXT DEFAULT NULL,
+[38;5;159m[  script:mysql-async]   `position` VARCHAR(255) DEFAULT '{"x":-269.4,"y":-955.3,"z":31.2,"heading":205.8}',
+[38;5;159m[  script:mysql-async]   `is_dead` INT DEFAULT 0,
+[38;5;159m[  script:mysql-async]   `last_name` VARCHAR(32) DEFAULT NULL,
+[38;5;159m[  script:mysql-async]   `dob` VARCHAR(10) DEFAULT NULL,
+[38;5;159m[  script:mysql-async]   `is_male` INT DEFAULT 1,
+[38;5;159m[  script:mysql-async]   `accessories` MEDIUMTEXT DEFAULT NULL,
+[38;5;159m[  script:mysql-async]   `first_name` VARCHAR(32) DEFAULT NULL,
+[38;5;159m[  script:mysql-async]   PRIMARY KEY(`identifier`)
+[38;5;159m[  script:mysql-async] ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+[38;5;159m[  script:mysql-async] 
+[38;5;159m[  script:mysql-async] call ADD_COLUMN_IF_NOT_EXISTS(DATABASE(), 'users', 'identifier', 'VARCHAR(40)  NOT NULL');
+[38;5;159m[  script:mysql-async] call ADD_COLUMN_IF_NOT_EXISTS(DATABASE(), 'users', 'name', 'LONGTEXT DEFAULT NULL');
+[38;5;159m[  script:mysql-async] call ADD_COLUMN_IF_NOT_EXISTS(DATABASE(), 'users', 'accounts', 'LONGTEXT DEFAULT NULL');
+[38;5;159m[  script:mysql-async] call ADD_COLUMN_IF_NOT_EXISTS(DATABASE(), 'users', 'group', 'VARCHAR(64) DEFAULT \'user\'');
+[38;5;159m[  script:mysql-async] call ADD_COLUMN_IF_NOT_EXISTS(DATABASE(), 'users', 'inventory', 'LONGTEXT DEFAULT NULL');
+[38;5;159m[  script:mysql-async] call ADD_COLUMN_IF_NOT_EXISTS(DATABASE(), 'users', 'job', 'VARCHAR(32) DEFAULT \'unemployed\'');
+[38;5;159m[  script:mysql-async] call ADD_COLUMN_IF_NOT_EXISTS(DATABASE(), 'users', 'job_grade', 'INT DEFAULT 0');
+[38;5;159m[  script:mysql-async] call ADD_COLUMN_IF_NOT_EXISTS(DATABASE(), 'users', 'loadout', 'LONGTEXT DEFAULT NULL');
+[38;5;159m[  script:mysql-async] call ADD_COLUMN_IF_NOT_EXISTS(DATABASE(), 'users', 'position', 'VARCHAR(255) DEFAULT \'{"x":-269.4,"y":-955.3,"z":31.2,"heading":205.8}\'');
+[38;5;159m[  script:mysql-async] call ADD_COLUMN_IF_NOT_EXISTS(DATABASE(), 'users', 'is_dead', 'INT DEFAULT 0');
+[38;5;159m[  script:mysql-async] call ADD_COLUMN_IF_NOT_EXISTS(DATABASE(), 'users', 'last_name', 'VARCHAR(32) DEFAULT NULL');
+[38;5;159m[  script:mysql-async] call ADD_COLUMN_IF_NOT_EXISTS(DATABASE(), 'users', 'dob', 'VARCHAR(10) DEFAULT NULL');
+[38;5;159m[  script:mysql-async] call ADD_COLUMN_IF_NOT_EXISTS(DATABASE(), 'users', 'is_male', 'INT DEFAULT 1');
+[38;5;159m[  script:mysql-async] call ADD_COLUMN_IF_NOT_EXISTS(DATABASE(), 'users', 'accessories', 'MEDIUMTEXT DEFAULT NULL');
+[38;5;159m[  script:mysql-async] call ADD_COLUMN_IF_NOT_EXISTS(DATABASE(), 'users', 'first_name', 'VARCHAR(32) DEFAULT NULL');
+[38;5;159m[  script:mysql-async]  : []
+[38;5;73m[ citizen-server-impl]         fff                          
+[38;5;73m[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[38;5;73m[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[38;5;73m[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[38;5;73m[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[38;5;73m[ citizen-server-impl]                                      
+[38;5;73m[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://fantaagogo-r35vp7.users.cfx.re/
+[38;5;73m[ citizen-server-impl] -- [server notice: tebex_not_set]
+[38;5;73m[ citizen-server-impl] ================
+[38;5;73m[ citizen-server-impl] Monetize your server using Tebex! Visit https://tebex.io/fivem for more info.
+[38;5;73m[ citizen-server-impl] ================
+[38;5;73m[ citizen-server-impl] 
+[38;5;220m[  script:es_extended] [esx] [migrate] ensuring migrations
+[38;5;220m[  script:es_extended] [esx] [migrate] running migration for skin #0
+[38;5;220m[  script:es_extended] [esx] [migrate] running migration for society #0
+[38;5;220m[  script:es_extended] [esx] [player] starting db sync
+[38;5;220m[  script:es_extended] [esx] server ready
+[38;5;220m[  script:es_extended] [esx] [player] new db accessor => DOB | dob
+[38;5;220m[  script:es_extended] [esx] [player] new db accessor => accessories | accessories
+[38;5;220m[  script:es_extended] [esx] [player] new db accessor => firstName | first_name
+[38;5;220m[  script:es_extended] [esx] [player] new db accessor => isMale | is_male
+[38;5;220m[  script:es_extended] [esx] [player] new db accessor => lastName | last_name
+[38;5;220m[  script:es_extended] [esx] [inventory] new inventory => test
+[38;5;220m[  script:es_extended] [esx] [inventory] test saved => something
+[38;5;220m[  script:es_extended] [esx] [inventory] callbacks also
+[38;5;73m[ citizen-server-impl] sync thread hitch warning: timer interval of 103 milliseconds
+[38;5;73m[ citizen-server-impl] sync thread hitch warning: timer interval of 116 milliseconds
+[38;5;73m[ citizen-server-impl] sync thread hitch warning: timer interval of 123 milliseconds
+[38;5;73m[ citizen-server-impl] server thread hitch warning: timer interval of 157 milliseconds
+[38;5;73m[ citizen-server-impl] server thread hitch warning: timer interval of 163 milliseconds
+[38;5;73m[ citizen-server-impl] sync thread hitch warning: timer interval of 140 milliseconds
+[38;5;73m[ citizen-server-impl] server thread hitch warning: timer interval of 171 milliseconds
+[38;5;73m[ citizen-server-impl] sync thread hitch warning: timer interval of 116 milliseconds
+[38;5;73m[ citizen-server-impl] sync thread hitch warning: timer interval of 112 milliseconds
+[38;5;73m[ citizen-server-impl] server thread hitch warning: timer interval of 219 milliseconds
+[38;5;73m[ citizen-server-impl] sync thread hitch warning: timer interval of 146 milliseconds
+[38;5;73m[ citizen-server-impl] sync thread hitch warning: timer interval of 184 milliseconds
+[38;5;73m[ citizen-server-impl] server thread hitch warning: timer interval of 201 milliseconds
+[38;5;73m[ citizen-server-impl] sync thread hitch warning: timer interval of 152 milliseconds
+[38;5;73m[ citizen-server-impl] server thread hitch warning: timer interval of 197 milliseconds
+[38;5;73m[ citizen-server-impl] sync thread hitch warning: timer interval of 155 milliseconds
+[38;5;73m[ citizen-server-impl] sync thread hitch warning: timer interval of 116 milliseconds
+[38;5;73m[ citizen-server-impl] sync thread hitch warning: timer interval of 101 milliseconds
+[38;5;73m[ citizen-server-impl] sync thread hitch warning: timer interval of 266 milliseconds
+[38;5;73m[ citizen-server-impl] server thread hitch warning: timer interval of 284 milliseconds
+[38;5;73m[ citizen-server-impl] server thread hitch warning: timer interval of 153 milliseconds
+[38;5;73m[ citizen-server-impl] sync thread hitch warning: timer interval of 126 milliseconds
+[38;5;73m[ citizen-server-impl] sync thread hitch warning: timer interval of 133 milliseconds
+[38;5;73m[ citizen-server-impl] server thread hitch warning: timer interval of 169 milliseconds
+[38;5;73m[ citizen-server-impl] sync thread hitch warning: timer interval of 142 milliseconds
+[38;5;73m[ citizen-server-impl] sync thread hitch warning: timer interval of 151 milliseconds
+[38;5;73m[ citizen-server-impl] server thread hitch warning: timer interval of 204 milliseconds
+[38;5;73m[ citizen-server-impl] sync thread hitch warning: timer interval of 142 milliseconds
+[38;5;73m[ citizen-server-impl] server thread hitch warning: timer interval of 197 milliseconds
+[38;5;73m[ citizen-server-impl] sync thread hitch warning: timer interval of 152 milliseconds
+[38;5;73m[ citizen-server-impl] server thread hitch warning: timer interval of 151 milliseconds
+[38;5;134m[      script:hardcap] Connecting: PrimoMx
+[38;5;73m[ citizen-server-impl] sync thread hitch warning: timer interval of 146 milliseconds
+[38;5;73m[ citizen-server-impl] server thread hitch warning: timer interval of 169 milliseconds
+[38;5;73m[ citizen-server-impl] sync thread hitch warning: timer interval of 175 milliseconds
+[38;5;73m[ citizen-server-impl] server thread hitch warning: timer interval of 244 milliseconds
+[38;5;73m[ citizen-server-impl] server thread hitch warning: timer interval of 199 milliseconds
+[38;5;73m[ citizen-server-impl] sync thread hitch warning: timer interval of 127 milliseconds
+[38;5;73m[ citizen-server-impl] server thread hitch warning: timer interval of 285 milliseconds
+[38;5;73m[ citizen-server-impl] sync thread hitch warning: timer interval of 231 milliseconds
+[38;5;73m[ citizen-server-impl] Sending heartbeat to https://servers-ingress-live.fivem.net/ingress
+[38;5;220m[  script:es_extended] [esx] [player] client connected => PrimoMx (1|276245f46886e1cca56e58796d75f00da91d77e3)
+[38;5;220m[  script:es_extended] [esx] [player] loading PrimoMx (1|276245f46886e1cca56e58796d75f00da91d77e3)
+[38;5;171m[                 cmd] Argument count mismatch (passed 3, wanted 2)
+[38;5;220m[  script:es_extended] [esx] [player] loaded PrimoMx (1|276245f46886e1cca56e58796d75f00da91d77e3)
+[38;5;73m[ citizen-server-impl] sync thread hitch warning: timer interval of 117 milliseconds
+[38;5;220m[  script:es_extended] [esx] [player] Saved player "PrimoMx"
