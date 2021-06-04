@@ -1,14 +1,14 @@
 
 ================================================================
-======== FXServer starting - 22/05/2021 à 22:04:11
+======== FXServer starting - 01/06/2021 à 23:58:15
 ================================================================
 [38;5;161m[    c-scripting-core] Creating script environments for _cfx_internal
 [38;5;73m[ citizen-server-impl] Scanning resources.
-[38;5;73m[ citizen-server-impl] Found 33 resources.
+[38;5;73m[ citizen-server-impl] Found 53 resources.
 [38;5;161m[    c-scripting-core] Creating script environments for sessionmanager
 [38;5;73m[ citizen-server-impl] Started resource sessionmanager
 [38;5;161m[    c-scripting-core] Creating script environments for monitor
-[38;5;84m[      script:monitor] [txAdminClient] Version 3.7.0 starting...
+[38;5;84m[      script:monitor] [txAdminClient] Version 4.0.1 starting...
 [38;5;73m[ citizen-server-impl] Started resource monitor
 [38;5;161m[    c-scripting-core] Creating script environments for mapmanager
 [38;5;73m[ citizen-server-impl] Started resource mapmanager
@@ -27,25 +27,82 @@
 [38;5;73m[ citizen-server-impl] Started resource mysql-async
 [38;5;161m[    c-scripting-core] Creating script environments for async
 [38;5;73m[ citizen-server-impl] Started resource async
+[38;5;73m[ citizen-server-impl] Started resource skinchanger
 [38;5;161m[    c-scripting-core] Creating script environments for es_extended
 [38;5;73m[ citizen-server-impl] Started resource es_extended
+[38;5;161m[    c-scripting-core] Creating script environments for esx_service
+[38;5;73m[ citizen-server-impl] Started resource esx_service
+[38;5;161m[    c-scripting-core] Creating script environments for esx_addonaccount
+[38;5;73m[ citizen-server-impl] Started resource esx_addonaccount
+[38;5;161m[    c-scripting-core] Creating script environments for cron
+[38;5;73m[ citizen-server-impl] Started resource cron
+[38;5;161m[    c-scripting-core] Creating script environments for esx_society
+[38;5;73m[ citizen-server-impl] Started resource esx_society
+[38;5;161m[    c-scripting-core] Creating script environments for esx_billing
+[38;5;73m[ citizen-server-impl] Started resource esx_billing
+[38;5;161m[    c-scripting-core] Creating script environments for esx_addoninventory
+[38;5;73m[ citizen-server-impl] Started resource esx_addoninventory
+[38;5;161m[    c-scripting-core] Creating script environments for esx_datastore
+[38;5;73m[ citizen-server-impl] Started resource esx_datastore
+[38;5;161m[    c-scripting-core] Creating script environments for esx_joblisting
+[38;5;73m[ citizen-server-impl] Started resource esx_joblisting
+[38;5;161m[    c-scripting-core] Creating script environments for esx_skin
+[38;5;73m[ citizen-server-impl] Started resource esx_skin
+[38;5;161m[    c-scripting-core] Creating script environments for esx_vehicleshop
+[38;5;73m[ citizen-server-impl] Started resource esx_vehicleshop
+[38;5;161m[    c-scripting-core] Creating script environments for esx_identity
+[38;5;73m[ citizen-server-impl] Started resource esx_identity
+[38;5;161m[    c-scripting-core] Creating script environments for esx_license
+[38;5;73m[ citizen-server-impl] Started resource esx_license
+[38;5;161m[    c-scripting-core] Creating script environments for esx_status
+[38;5;73m[ citizen-server-impl] Started resource esx_status
+[38;5;161m[    c-scripting-core] Creating script environments for esx_policejob
+[38;5;73m[ citizen-server-impl] Started resource esx_policejob
+[38;5;161m[    c-scripting-core] Creating script environments for esx_producterjob
+[38;5;73m[ citizen-server-impl] Started resource esx_producterjob
 [38;5;73m[ citizen-server-impl] Started resource esx_menu_default
 [38;5;73m[ citizen-server-impl] Started resource esx_menu_list
 [38;5;73m[ citizen-server-impl] Started resource esx_menu_dialog
+[38;5;161m[    c-scripting-core] Creating script environments for krz_personalmenu
+[38;5;203m[script:krz_personalm] ======================================================================
+[38;5;203m[script:krz_personalm] [Author] : Korioz
+[38;5;203m[script:krz_personalm] [Version] : 2.0
+[38;5;203m[script:krz_personalm] [Download] : https://github.com/korioz/krz_personalmenu/releases
+[38;5;203m[script:krz_personalm] [Issues] : https://github.com/korioz/krz_personalmenu/issues
+[38;5;203m[script:krz_personalm] ======================================================================
+[38;5;73m[ citizen-server-impl] Started resource krz_personalmenu
+[38;5;161m[    c-scripting-core] Creating script environments for encore_pointdev
+[38;5;73m[ citizen-server-impl] Started resource encore_pointdev
+[38;5;161m[    c-scripting-core] Creating script environments for vMenu
+[38;5;165m[        script:vMenu] Instantiated instance of script vMenuServer.BanManager.
+[38;5;165m[        script:vMenu] [vMenu] [WARNING] vMenu is set up to ignore permissions!
+[38;5;165m[        script:vMenu] If you did this on purpose then you can ignore this warning.
+[38;5;165m[        script:vMenu] If you did not set this on purpose, then you must have made a mistake while setting up vMenu.
+[38;5;165m[        script:vMenu] Please read the vMenu documentation (https://docs.vespura.com/vmenu).
+[38;5;165m[        script:vMenu] Most likely you are not executing the permissions.cfg (correctly).
+[38;5;165m[        script:vMenu] Instantiated instance of script vMenuServer.MainServer.
+[38;5;73m[ citizen-server-impl] Started resource vMenu
 [38;5;161m[    c-scripting-core] Creating script environments for EasyAdmin
 [38;5;73m[ citizen-server-impl] Started resource EasyAdmin
 [38;5;66m[          svadhesive] Authenticating server license key...
-[38;5;220m[  script:es_extended] [INFO] ESX Legacy initialized
 [38;5;84m[      script:monitor] [txAdminClient] Threads and commands set up. All Ready.
 [38;5;128m[    script:EasyAdmin] 
 [38;5;128m[    script:EasyAdmin]  _______ _______ _______ __   __ _______ ______  _______ _____ __   _
 [38;5;128m[    script:EasyAdmin]  |______ |_____| |______   \_/   |_____| |     \ |  |  |   |   | \  |
 [38;5;128m[    script:EasyAdmin]  |______ |     | ______|    |    |     | |_____/ |  |  | __|__ |  \_|
 [38;5;128m[    script:EasyAdmin]                            Version 5.901
+[38;5;220m[  script:es_extended] [INFO] ESX Legacy initialized
 [38;5;154m[   script:mapmanager] Started map fivem-map-skater
 [38;5;73m[ citizen-server-impl] Started resource fivem-map-skater
 [38;5;159m[  script:mysql-async] [mysql-async] [SUCCESS] Database server connection established.
 [38;5;66m[          svadhesive] Server license key authentication succeeded. Welcome!
+[38;5;73m[ citizen-server-impl]         fff                          
+[38;5;73m[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[38;5;73m[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[38;5;73m[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[38;5;73m[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[38;5;73m[ citizen-server-impl]                                      
+[38;5;73m[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://fantaagogo-r35vp7.users.cfx.re/
 [38;5;220m[  script:es_extended] 
 [38;5;220m[  script:es_extended] -------------------------------------------------------
 [38;5;220m[  script:es_extended] Your Es-extended is the latest version!
@@ -54,52 +111,85 @@
 [38;5;220m[  script:es_extended] CHANGELOG: Preserve compatibility for getting hashes; store player ped and death in PlayerData; resolve typos and outdated prints
 [38;5;220m[  script:es_extended] -------------------------------------------------------
 [38;5;220m[  script:es_extended] 
-[38;5;73m[ citizen-server-impl]         fff                          
-[38;5;73m[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
-[38;5;73m[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
-[38;5;73m[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
-[38;5;73m[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
-[38;5;73m[ citizen-server-impl]                                      
-[38;5;73m[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://fantaagogo-r35vp7.users.cfx.re/
 [38;5;73m[ citizen-server-impl] -- [server notice: tebex_not_set]
 [38;5;73m[ citizen-server-impl] ================
 [38;5;73m[ citizen-server-impl] Monetize your server using Tebex! Visit https://tebex.io/fivem for more info.
 [38;5;73m[ citizen-server-impl] ================
 [38;5;73m[ citizen-server-impl] 
 [38;5;134m[      script:hardcap] Connecting: PrimoMx
+[38;5;73m[ citizen-server-impl] server thread hitch warning: timer interval of 474 milliseconds
 [38;5;73m[ citizen-server-impl] Sending heartbeat to https://servers-ingress-live.fivem.net/ingress
-[38;5;220m[  script:es_extended] [INFO]  Player 1 Has been granted admin permissions via Ace Perms.
-[38;5;220m[  script:es_extended] [INFO] Player "PrimoMx" has connected to the server. ID: 1
-[38;5;220m[  script:es_extended] [INFO] Saved player "PrimoMx"
+[38;5;73m[ citizen-server-impl] server thread hitch warning: timer interval of 151 milliseconds
+[38;5;220m[  script:es_extended] [INFO] Player "Tony Winchester" has connected to the server. ID: 1
+[38;5;107m[script:esx_producter] SCRIPT ERROR: @esx_producterjob/server/main.lua:160: attempt to index a nil value (upvalue 'societyAccount')
+[38;5;107m[script:esx_producter] > ref (@esx_producterjob/server/main.lua:160)
+[38;5;107m[script:esx_producter] > handler (@esx_addonaccount/server/main.lua:63)
+[38;5;107m[script:esx_producter] > fn (@esx_producterjob/server/main.lua:159)
+[38;5;107m[script:esx_producter] SCRIPT ERROR: @esx_producterjob/server/main.lua:160: attempt to index a nil value (upvalue 'societyAccount')
+[38;5;107m[script:esx_producter] > ref (@esx_producterjob/server/main.lua:160)
+[38;5;107m[script:esx_producter] > handler (@esx_addonaccount/server/main.lua:63)
+[38;5;107m[script:esx_producter] > fn (@esx_producterjob/server/main.lua:159)
+[38;5;107m[script:esx_producter] SCRIPT ERROR: @esx_producterjob/server/main.lua:160: attempt to index a nil value (upvalue 'societyAccount')
+[38;5;107m[script:esx_producter] > ref (@esx_producterjob/server/main.lua:160)
+[38;5;107m[script:esx_producter] > handler (@esx_addonaccount/server/main.lua:63)
+[38;5;107m[script:esx_producter] > fn (@esx_producterjob/server/main.lua:159)
+[38;5;107m[script:esx_producter] SCRIPT ERROR: @esx_producterjob/server/main.lua:160: attempt to index a nil value (upvalue 'societyAccount')
+[38;5;107m[script:esx_producter] > ref (@esx_producterjob/server/main.lua:160)
+[38;5;107m[script:esx_producter] > handler (@esx_addonaccount/server/main.lua:63)
+[38;5;107m[script:esx_producter] > fn (@esx_producterjob/server/main.lua:159)
+[38;5;107m[script:esx_producter] SCRIPT ERROR: @esx_producterjob/server/main.lua:160: attempt to index a nil value (upvalue 'societyAccount')
+[38;5;107m[script:esx_producter] > ref (@esx_producterjob/server/main.lua:160)
+[38;5;107m[script:esx_producter] > handler (@esx_addonaccount/server/main.lua:63)
+[38;5;107m[script:esx_producter] > fn (@esx_producterjob/server/main.lua:159)
+[38;5;107m[script:esx_producter] SCRIPT ERROR: @esx_producterjob/server/main.lua:160: attempt to index a nil value (upvalue 'societyAccount')
+[38;5;107m[script:esx_producter] > ref (@esx_producterjob/server/main.lua:160)
+[38;5;107m[script:esx_producter] > handler (@esx_addonaccount/server/main.lua:63)
+[38;5;107m[script:esx_producter] > fn (@esx_producterjob/server/main.lua:159)
+[38;5;107m[script:esx_producter] SCRIPT ERROR: @esx_producterjob/server/main.lua:160: attempt to index a nil value (upvalue 'societyAccount')
+[38;5;107m[script:esx_producter] > ref (@esx_producterjob/server/main.lua:160)
+[38;5;107m[script:esx_producter] > handler (@esx_addonaccount/server/main.lua:63)
+[38;5;107m[script:esx_producter] > fn (@esx_producterjob/server/main.lua:159)
+[38;5;107m[script:esx_producter] SCRIPT ERROR: @esx_producterjob/server/main.lua:160: attempt to index a nil value (upvalue 'societyAccount')
+[38;5;107m[script:esx_producter] > ref (@esx_producterjob/server/main.lua:160)
+[38;5;107m[script:esx_producter] > handler (@esx_addonaccount/server/main.lua:63)
+[38;5;107m[script:esx_producter] > fn (@esx_producterjob/server/main.lua:159)
+[38;5;220m[  script:es_extended] [INFO] Saved player "Tony Winchester"
+[38;5;73m[ citizen-server-impl] sync thread hitch warning: timer interval of 114 milliseconds
+[38;5;73m[ citizen-server-impl] sync thread hitch warning: timer interval of 140 milliseconds
+[38;5;73m[ citizen-server-impl] server thread hitch warning: timer interval of 277 milliseconds
+[38;5;73m[ citizen-server-impl] sync thread hitch warning: timer interval of 148 milliseconds
+[38;5;73m[ citizen-server-impl] sync thread hitch warning: timer interval of 101 milliseconds
+[38;5;73m[ citizen-server-impl] sync thread hitch warning: timer interval of 111 milliseconds
+[38;5;73m[ citizen-server-impl] sync thread hitch warning: timer interval of 117 milliseconds
+[38;5;73m[ citizen-server-impl] sync thread hitch warning: timer interval of 121 milliseconds
+[38;5;73m[ citizen-server-impl] server thread hitch warning: timer interval of 169 milliseconds
 
 ================================================================
-======== FXServer starting - 22/05/2021 à 22:07:20
+======== FXServer starting - 02/06/2021 à 00:02:00
 ================================================================
 [38;5;161m[    c-scripting-core] Creating script environments for _cfx_internal
 [38;5;73m[ citizen-server-impl] Scanning resources.
-[38;5;73m[ citizen-server-impl] Found 33 resources.
+[38;5;73m[ citizen-server-impl] Found 53 resources.
 [38;5;161m[    c-scripting-core] Creating script environments for sessionmanager
 [38;5;73m[ citizen-server-impl] Started resource sessionmanager
 [38;5;161m[    c-scripting-core] Creating script environments for monitor
-[38;5;84m[      script:monitor] [txAdminClient] Version 3.7.0 starting...
+[38;5;84m[      script:monitor] [txAdminClient] Version 4.0.1 starting...
 [38;5;73m[ citizen-server-impl] Started resource monitor
 [38;5;73m[ citizen-server-impl] Error: Could not bind on 0.0.0.0:30120 - is this address valid and not already in use?
 [38;5;73m[ citizen-server-impl] 
 [38;5;75m[      net-tcp-server] Listening on socket failed - libuv error EADDRINUSE.
 [38;5;75m[      net-tcp-server] error on connection: address already in use
-[38;5;73m[ citizen-server-impl] sync thread hitch warning: timer interval of 124 milliseconds
-[38;5;73m[ citizen-server-impl] sync thread hitch warning: timer interval of 113 milliseconds
 
 ================================================================
-======== FXServer starting - 22/05/2021 à 22:07:32
+======== FXServer starting - 02/06/2021 à 00:02:20
 ================================================================
 [38;5;161m[    c-scripting-core] Creating script environments for _cfx_internal
 [38;5;73m[ citizen-server-impl] Scanning resources.
-[38;5;73m[ citizen-server-impl] Found 33 resources.
+[38;5;73m[ citizen-server-impl] Found 53 resources.
 [38;5;161m[    c-scripting-core] Creating script environments for sessionmanager
 [38;5;73m[ citizen-server-impl] Started resource sessionmanager
 [38;5;161m[    c-scripting-core] Creating script environments for monitor
-[38;5;84m[      script:monitor] [txAdminClient] Version 3.7.0 starting...
+[38;5;84m[      script:monitor] [txAdminClient] Version 4.0.1 starting...
 [38;5;73m[ citizen-server-impl] Started resource monitor
 [38;5;161m[    c-scripting-core] Creating script environments for mapmanager
 [38;5;73m[ citizen-server-impl] Started resource mapmanager
@@ -118,103 +208,75 @@
 [38;5;73m[ citizen-server-impl] Started resource mysql-async
 [38;5;161m[    c-scripting-core] Creating script environments for async
 [38;5;73m[ citizen-server-impl] Started resource async
+[38;5;73m[ citizen-server-impl] Started resource skinchanger
 [38;5;161m[    c-scripting-core] Creating script environments for es_extended
 [38;5;73m[ citizen-server-impl] Started resource es_extended
+[38;5;161m[    c-scripting-core] Creating script environments for esx_service
+[38;5;73m[ citizen-server-impl] Started resource esx_service
+[38;5;161m[    c-scripting-core] Creating script environments for esx_addonaccount
+[38;5;73m[ citizen-server-impl] Started resource esx_addonaccount
+[38;5;161m[    c-scripting-core] Creating script environments for cron
+[38;5;73m[ citizen-server-impl] Started resource cron
+[38;5;161m[    c-scripting-core] Creating script environments for esx_society
+[38;5;73m[ citizen-server-impl] Started resource esx_society
+[38;5;161m[    c-scripting-core] Creating script environments for esx_billing
+[38;5;73m[ citizen-server-impl] Started resource esx_billing
+[38;5;161m[    c-scripting-core] Creating script environments for esx_addoninventory
+[38;5;73m[ citizen-server-impl] Started resource esx_addoninventory
+[38;5;161m[    c-scripting-core] Creating script environments for esx_datastore
+[38;5;73m[ citizen-server-impl] Started resource esx_datastore
+[38;5;161m[    c-scripting-core] Creating script environments for esx_joblisting
+[38;5;73m[ citizen-server-impl] Started resource esx_joblisting
+[38;5;161m[    c-scripting-core] Creating script environments for esx_skin
+[38;5;73m[ citizen-server-impl] Started resource esx_skin
+[38;5;161m[    c-scripting-core] Creating script environments for esx_vehicleshop
+[38;5;73m[ citizen-server-impl] Started resource esx_vehicleshop
+[38;5;161m[    c-scripting-core] Creating script environments for esx_identity
+[38;5;73m[ citizen-server-impl] Started resource esx_identity
+[38;5;161m[    c-scripting-core] Creating script environments for esx_license
+[38;5;73m[ citizen-server-impl] Started resource esx_license
+[38;5;161m[    c-scripting-core] Creating script environments for esx_status
+[38;5;73m[ citizen-server-impl] Started resource esx_status
+[38;5;161m[    c-scripting-core] Creating script environments for esx_policejob
+[38;5;73m[ citizen-server-impl] Started resource esx_policejob
+[38;5;161m[    c-scripting-core] Creating script environments for esx_producterjob
+[38;5;73m[ citizen-server-impl] Started resource esx_producterjob
 [38;5;73m[ citizen-server-impl] Started resource esx_menu_default
 [38;5;73m[ citizen-server-impl] Started resource esx_menu_list
 [38;5;73m[ citizen-server-impl] Started resource esx_menu_dialog
+[38;5;161m[    c-scripting-core] Creating script environments for krz_personalmenu
+[38;5;203m[script:krz_personalm] ======================================================================
+[38;5;203m[script:krz_personalm] [Author] : Korioz
+[38;5;203m[script:krz_personalm] [Version] : 2.0
+[38;5;203m[script:krz_personalm] [Download] : https://github.com/korioz/krz_personalmenu/releases
+[38;5;203m[script:krz_personalm] [Issues] : https://github.com/korioz/krz_personalmenu/issues
+[38;5;203m[script:krz_personalm] ======================================================================
+[38;5;73m[ citizen-server-impl] Started resource krz_personalmenu
+[38;5;161m[    c-scripting-core] Creating script environments for encore_pointdev
+[38;5;73m[ citizen-server-impl] Started resource encore_pointdev
+[38;5;161m[    c-scripting-core] Creating script environments for vMenu
+[38;5;165m[        script:vMenu] Instantiated instance of script vMenuServer.BanManager.
+[38;5;165m[        script:vMenu] [vMenu] [WARNING] vMenu is set up to ignore permissions!
+[38;5;165m[        script:vMenu] If you did this on purpose then you can ignore this warning.
+[38;5;165m[        script:vMenu] If you did not set this on purpose, then you must have made a mistake while setting up vMenu.
+[38;5;165m[        script:vMenu] Please read the vMenu documentation (https://docs.vespura.com/vmenu).
+[38;5;165m[        script:vMenu] Most likely you are not executing the permissions.cfg (correctly).
+[38;5;165m[        script:vMenu] Instantiated instance of script vMenuServer.MainServer.
+[38;5;73m[ citizen-server-impl] Started resource vMenu
 [38;5;161m[    c-scripting-core] Creating script environments for EasyAdmin
 [38;5;73m[ citizen-server-impl] Started resource EasyAdmin
 [38;5;66m[          svadhesive] Authenticating server license key...
-[38;5;220m[  script:es_extended] [INFO] ESX Legacy initialized
 [38;5;84m[      script:monitor] [txAdminClient] Threads and commands set up. All Ready.
 [38;5;128m[    script:EasyAdmin] 
 [38;5;128m[    script:EasyAdmin]  _______ _______ _______ __   __ _______ ______  _______ _____ __   _
 [38;5;128m[    script:EasyAdmin]  |______ |_____| |______   \_/   |_____| |     \ |  |  |   |   | \  |
 [38;5;128m[    script:EasyAdmin]  |______ |     | ______|    |    |     | |_____/ |  |  | __|__ |  \_|
 [38;5;128m[    script:EasyAdmin]                            Version 5.901
-[38;5;154m[   script:mapmanager] Started map fivem-map-hipster
-[38;5;73m[ citizen-server-impl] Started resource fivem-map-hipster
-[38;5;159m[  script:mysql-async] [mysql-async] [SUCCESS] Database server connection established.
-[38;5;66m[          svadhesive] Server license key authentication succeeded. Welcome!
-[38;5;220m[  script:es_extended] 
-[38;5;220m[  script:es_extended] -------------------------------------------------------
-[38;5;220m[  script:es_extended] Your Es-extended is the latest version!
-[38;5;220m[  script:es_extended] Version: legacy
-[38;5;220m[  script:es_extended] COMMIT: 1.2.0
-[38;5;220m[  script:es_extended] CHANGELOG: Preserve compatibility for getting hashes; store player ped and death in PlayerData; resolve typos and outdated prints
-[38;5;220m[  script:es_extended] -------------------------------------------------------
-[38;5;220m[  script:es_extended] 
-[38;5;73m[ citizen-server-impl]         fff                          
-[38;5;73m[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
-[38;5;73m[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
-[38;5;73m[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
-[38;5;73m[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
-[38;5;73m[ citizen-server-impl]                                      
-[38;5;73m[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://fantaagogo-r35vp7.users.cfx.re/
-[38;5;73m[ citizen-server-impl] -- [server notice: tebex_not_set]
-[38;5;73m[ citizen-server-impl] ================
-[38;5;73m[ citizen-server-impl] Monetize your server using Tebex! Visit https://tebex.io/fivem for more info.
-[38;5;73m[ citizen-server-impl] ================
-[38;5;73m[ citizen-server-impl] 
-[38;5;134m[      script:hardcap] Connecting: PrimoMx
-[38;5;73m[ citizen-server-impl] Sending heartbeat to https://servers-ingress-live.fivem.net/ingress
-[38;5;220m[  script:es_extended] [INFO] Player "PrimoMx" has connected to the server. ID: 1
-[38;5;199m[         script:chat] PrimoMx: qZd
-[38;5;73m[ citizen-server-impl] Sending heartbeat to https://servers-ingress-live.fivem.net/ingress
-[38;5;220m[  script:es_extended] [INFO] Saved player "PrimoMx"
-[38;5;73m[ citizen-server-impl] server thread hitch warning: timer interval of 182 milliseconds
-[38;5;73m[ citizen-server-impl] sync thread hitch warning: timer interval of 152 milliseconds
-[38;5;73m[ citizen-server-impl] server thread hitch warning: timer interval of 163 milliseconds
-[38;5;73m[ citizen-server-impl] sync thread hitch warning: timer interval of 135 milliseconds
-[38;5;73m[ citizen-server-impl] Sending heartbeat to https://servers-ingress-live.fivem.net/ingress
-
-================================================================
-======== FXServer starting - 22/05/2021 à 22:11:52
-================================================================
-[38;5;161m[    c-scripting-core] Creating script environments for _cfx_internal
-[38;5;73m[ citizen-server-impl] Scanning resources.
-[38;5;73m[ citizen-server-impl] Found 33 resources.
-[38;5;161m[    c-scripting-core] Creating script environments for sessionmanager
-[38;5;73m[ citizen-server-impl] Started resource sessionmanager
-[38;5;161m[    c-scripting-core] Creating script environments for monitor
-[38;5;84m[      script:monitor] [txAdminClient] Version 3.7.0 starting...
-[38;5;73m[ citizen-server-impl] Started resource monitor
-[38;5;161m[    c-scripting-core] Creating script environments for mapmanager
-[38;5;73m[ citizen-server-impl] Started resource mapmanager
-[38;5;161m[    c-scripting-core] Creating script environments for yarn
-[38;5;73m[ citizen-server-impl] Started resource yarn
-[38;5;161m[    c-scripting-core] Creating script environments for webpack
-[38;5;73m[ citizen-server-impl] Started resource webpack
-[38;5;161m[    c-scripting-core] Creating script environments for chat
-[38;5;73m[ citizen-server-impl] Started resource chat
-[38;5;73m[ citizen-server-impl] Started resource spawnmanager
-[38;5;154m[   script:mapmanager] Started gametype Freeroam
-[38;5;73m[ citizen-server-impl] Started resource basic-gamemode
-[38;5;161m[    c-scripting-core] Creating script environments for hardcap
-[38;5;73m[ citizen-server-impl] Started resource hardcap
-[38;5;161m[    c-scripting-core] Creating script environments for mysql-async
-[38;5;73m[ citizen-server-impl] Started resource mysql-async
-[38;5;161m[    c-scripting-core] Creating script environments for async
-[38;5;73m[ citizen-server-impl] Started resource async
-[38;5;161m[    c-scripting-core] Creating script environments for es_extended
-[38;5;73m[ citizen-server-impl] Started resource es_extended
-[38;5;73m[ citizen-server-impl] Started resource esx_menu_default
-[38;5;73m[ citizen-server-impl] Started resource esx_menu_list
-[38;5;73m[ citizen-server-impl] Started resource esx_menu_dialog
-[38;5;161m[    c-scripting-core] Creating script environments for EasyAdmin
-[38;5;73m[ citizen-server-impl] Started resource EasyAdmin
-[38;5;66m[          svadhesive] Authenticating server license key...
 [38;5;220m[  script:es_extended] [INFO] ESX Legacy initialized
-[38;5;84m[      script:monitor] [txAdminClient] Threads and commands set up. All Ready.
-[38;5;128m[    script:EasyAdmin] 
-[38;5;128m[    script:EasyAdmin]  _______ _______ _______ __   __ _______ ______  _______ _____ __   _
-[38;5;128m[    script:EasyAdmin]  |______ |_____| |______   \_/   |_____| |     \ |  |  |   |   | \  |
-[38;5;128m[    script:EasyAdmin]  |______ |     | ______|    |    |     | |_____/ |  |  | __|__ |  \_|
-[38;5;128m[    script:EasyAdmin]                            Version 5.901
 [38;5;154m[   script:mapmanager] Started map fivem-map-skater
 [38;5;73m[ citizen-server-impl] Started resource fivem-map-skater
 [38;5;159m[  script:mysql-async] [mysql-async] [SUCCESS] Database server connection established.
+[38;5;66m[          svadhesive] Server license key authentication succeeded. Welcome!
 [38;5;220m[  script:es_extended] 
 [38;5;220m[  script:es_extended] -------------------------------------------------------
 [38;5;220m[  script:es_extended] Your Es-extended is the latest version!
@@ -223,7 +285,6 @@
 [38;5;220m[  script:es_extended] CHANGELOG: Preserve compatibility for getting hashes; store player ped and death in PlayerData; resolve typos and outdated prints
 [38;5;220m[  script:es_extended] -------------------------------------------------------
 [38;5;220m[  script:es_extended] 
-[38;5;66m[          svadhesive] Server license key authentication succeeded. Welcome!
 [38;5;73m[ citizen-server-impl]         fff                          
 [38;5;73m[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
 [38;5;73m[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
@@ -237,89 +298,55 @@
 [38;5;73m[ citizen-server-impl] ================
 [38;5;73m[ citizen-server-impl] 
 [38;5;134m[      script:hardcap] Connecting: PrimoMx
+[38;5;73m[ citizen-server-impl] server thread hitch warning: timer interval of 485 milliseconds
 [38;5;73m[ citizen-server-impl] Sending heartbeat to https://servers-ingress-live.fivem.net/ingress
-[38;5;220m[  script:es_extended] [INFO] Player "PrimoMx" has connected to the server. ID: 1
+[38;5;220m[  script:es_extended] [INFO] Player "Tony Winchester" has connected to the server. ID: 1
+[38;5;73m[ citizen-server-impl] sync thread hitch warning: timer interval of 105 milliseconds
 [38;5;73m[ citizen-server-impl] Sending heartbeat to https://servers-ingress-live.fivem.net/ingress
 [38;5;73m[ citizen-server-impl] Sending heartbeat to https://servers-ingress-live.fivem.net/ingress
 [38;5;73m[ citizen-server-impl] Sending heartbeat to https://servers-ingress-live.fivem.net/ingress
-[38;5;220m[  script:es_extended] [INFO] Saved player "PrimoMx"
+[38;5;220m[  script:es_extended] [INFO] Saved player "Tony Winchester"
 [38;5;220m[  script:es_extended] [INFO] Saved 1 player(s)
 [38;5;73m[ citizen-server-impl] Sending heartbeat to https://servers-ingress-live.fivem.net/ingress
 [38;5;73m[ citizen-server-impl] Sending heartbeat to https://servers-ingress-live.fivem.net/ingress
-[38;5;220m[  script:es_extended] [INFO] Saved player "PrimoMx"
-
-================================================================
-======== FXServer starting - 22/05/2021 à 22:28:18
-================================================================
-[38;5;161m[    c-scripting-core] Creating script environments for _cfx_internal
-[38;5;73m[ citizen-server-impl] Scanning resources.
-[38;5;73m[ citizen-server-impl] Found 33 resources.
-[38;5;161m[    c-scripting-core] Creating script environments for sessionmanager
-[38;5;73m[ citizen-server-impl] Started resource sessionmanager
-[38;5;161m[    c-scripting-core] Creating script environments for monitor
-[38;5;84m[      script:monitor] [txAdminClient] Version 3.7.0 starting...
-[38;5;73m[ citizen-server-impl] Started resource monitor
-[38;5;161m[    c-scripting-core] Creating script environments for mapmanager
-[38;5;73m[ citizen-server-impl] Started resource mapmanager
-[38;5;161m[    c-scripting-core] Creating script environments for yarn
-[38;5;73m[ citizen-server-impl] Started resource yarn
-[38;5;161m[    c-scripting-core] Creating script environments for webpack
-[38;5;73m[ citizen-server-impl] Started resource webpack
-[38;5;161m[    c-scripting-core] Creating script environments for chat
-[38;5;73m[ citizen-server-impl] Started resource chat
-[38;5;73m[ citizen-server-impl] Started resource spawnmanager
-[38;5;154m[   script:mapmanager] Started gametype Freeroam
-[38;5;73m[ citizen-server-impl] Started resource basic-gamemode
-[38;5;161m[    c-scripting-core] Creating script environments for hardcap
-[38;5;73m[ citizen-server-impl] Started resource hardcap
-[38;5;161m[    c-scripting-core] Creating script environments for mysql-async
-[38;5;73m[ citizen-server-impl] Started resource mysql-async
-[38;5;161m[    c-scripting-core] Creating script environments for async
-[38;5;73m[ citizen-server-impl] Started resource async
-[38;5;161m[    c-scripting-core] Creating script environments for es_extended
-[38;5;73m[ citizen-server-impl] Started resource es_extended
-[38;5;73m[ citizen-server-impl] Started resource esx_menu_default
-[38;5;73m[ citizen-server-impl] Started resource esx_menu_list
-[38;5;73m[ citizen-server-impl] Started resource esx_menu_dialog
-[38;5;161m[    c-scripting-core] Creating script environments for EasyAdmin
-[38;5;73m[ citizen-server-impl] Started resource EasyAdmin
-[38;5;66m[          svadhesive] Authenticating server license key...
-[38;5;220m[  script:es_extended] [INFO] ESX Legacy initialized
-[38;5;84m[      script:monitor] [txAdminClient] Threads and commands set up. All Ready.
-[38;5;128m[    script:EasyAdmin] 
-[38;5;128m[    script:EasyAdmin]  _______ _______ _______ __   __ _______ ______  _______ _____ __   _
-[38;5;128m[    script:EasyAdmin]  |______ |_____| |______   \_/   |_____| |     \ |  |  |   |   | \  |
-[38;5;128m[    script:EasyAdmin]  |______ |     | ______|    |    |     | |_____/ |  |  | __|__ |  \_|
-[38;5;128m[    script:EasyAdmin]                            Version 5.901
-[38;5;154m[   script:mapmanager] Started map fivem-map-skater
-[38;5;73m[ citizen-server-impl] Started resource fivem-map-skater
-[38;5;159m[  script:mysql-async] [mysql-async] [SUCCESS] Database server connection established.
-[38;5;220m[  script:es_extended] 
-[38;5;220m[  script:es_extended] -------------------------------------------------------
-[38;5;220m[  script:es_extended] Your Es-extended is the latest version!
-[38;5;220m[  script:es_extended] Version: legacy
-[38;5;220m[  script:es_extended] COMMIT: 1.2.0
-[38;5;220m[  script:es_extended] CHANGELOG: Preserve compatibility for getting hashes; store player ped and death in PlayerData; resolve typos and outdated prints
-[38;5;220m[  script:es_extended] -------------------------------------------------------
-[38;5;220m[  script:es_extended] 
-[38;5;66m[          svadhesive] Server license key authentication succeeded. Welcome!
-[38;5;73m[ citizen-server-impl]         fff                          
-[38;5;73m[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
-[38;5;73m[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
-[38;5;73m[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
-[38;5;73m[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
-[38;5;73m[ citizen-server-impl]                                      
-[38;5;73m[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://fantaagogo-r35vp7.users.cfx.re/
-[38;5;73m[ citizen-server-impl] -- [server notice: tebex_not_set]
-[38;5;73m[ citizen-server-impl] ================
-[38;5;73m[ citizen-server-impl] Monetize your server using Tebex! Visit https://tebex.io/fivem for more info.
-[38;5;73m[ citizen-server-impl] ================
-[38;5;73m[ citizen-server-impl] 
-[38;5;134m[      script:hardcap] Connecting: PrimoMx
 [38;5;73m[ citizen-server-impl] Sending heartbeat to https://servers-ingress-live.fivem.net/ingress
-[38;5;220m[  script:es_extended] [INFO] Player "PrimoMx" has connected to the server. ID: 1
-[38;5;73m[ citizen-server-impl] sync thread hitch warning: timer interval of 108 milliseconds
+[38;5;220m[  script:es_extended] [INFO] Saved player "Tony Winchester"
+[38;5;220m[  script:es_extended] [INFO] Saved 1 player(s)
 [38;5;73m[ citizen-server-impl] Sending heartbeat to https://servers-ingress-live.fivem.net/ingress
 [38;5;73m[ citizen-server-impl] Sending heartbeat to https://servers-ingress-live.fivem.net/ingress
-[38;5;220m[  script:es_extended] [INFO] Saved player "PrimoMx"
+[38;5;73m[ citizen-server-impl] Sending heartbeat to https://servers-ingress-live.fivem.net/ingress
+[38;5;220m[  script:es_extended] [INFO] Saved player "Tony Winchester"
+[38;5;220m[  script:es_extended] [INFO] Saved 1 player(s)
+[38;5;73m[ citizen-server-impl] Sending heartbeat to https://servers-ingress-live.fivem.net/ingress
+[38;5;73m[ citizen-server-impl] Sending heartbeat to https://servers-ingress-live.fivem.net/ingress
+[38;5;73m[ citizen-server-impl] Sending heartbeat to https://servers-ingress-live.fivem.net/ingress
+[38;5;73m[ citizen-server-impl] Sending heartbeat to https://servers-ingress-live.fivem.net/ingress
+[38;5;220m[  script:es_extended] [INFO] Saved player "Tony Winchester"
+[38;5;220m[  script:es_extended] [INFO] Saved 1 player(s)
+[38;5;73m[ citizen-server-impl] Sending heartbeat to https://servers-ingress-live.fivem.net/ingress
+[38;5;73m[ citizen-server-impl] Sending heartbeat to https://servers-ingress-live.fivem.net/ingress
+[38;5;73m[ citizen-server-impl] Sending heartbeat to https://servers-ingress-live.fivem.net/ingress
+[38;5;220m[  script:es_extended] [INFO] Saved player "Tony Winchester"
+[38;5;220m[  script:es_extended] [INFO] Saved 1 player(s)
+[38;5;73m[ citizen-server-impl] Sending heartbeat to https://servers-ingress-live.fivem.net/ingress
+[38;5;73m[ citizen-server-impl] Sending heartbeat to https://servers-ingress-live.fivem.net/ingress
+[38;5;220m[  script:es_extended] [INFO] Saved player "Tony Winchester"
+[38;5;73m[ citizen-server-impl] sync thread hitch warning: timer interval of 203 milliseconds
+[38;5;73m[ citizen-server-impl] server thread hitch warning: timer interval of 241 milliseconds
+[38;5;73m[ citizen-server-impl] server thread hitch warning: timer interval of 161 milliseconds
+[38;5;73m[ citizen-server-impl] Sending heartbeat to https://servers-ingress-live.fivem.net/ingress
+[38;5;220m[  script:es_extended] [INFO] Saved 0 player(s)
+[38;5;73m[ citizen-server-impl] Sending heartbeat to https://servers-ingress-live.fivem.net/ingress
+[38;5;73m[ citizen-server-impl] sync thread hitch warning: timer interval of 107 milliseconds
+[38;5;73m[ citizen-server-impl] Sending heartbeat to https://servers-ingress-live.fivem.net/ingress
+[38;5;73m[ citizen-server-impl] Sending heartbeat to https://servers-ingress-live.fivem.net/ingress
+[38;5;73m[ citizen-server-impl] Sending heartbeat to https://servers-ingress-live.fivem.net/ingress
+[38;5;220m[  script:es_extended] [INFO] Saved 0 player(s)
+[38;5;73m[ citizen-server-impl] server thread hitch warning: timer interval of 175 milliseconds
+[38;5;73m[ citizen-server-impl] Sending heartbeat to https://servers-ingress-live.fivem.net/ingress
+[38;5;73m[ citizen-server-impl] Sending heartbeat to https://servers-ingress-live.fivem.net/ingress
+[38;5;73m[ citizen-server-impl] Sending heartbeat to https://servers-ingress-live.fivem.net/ingress
+[38;5;220m[  script:es_extended] [INFO] Saved 0 player(s)
+[38;5;73m[ citizen-server-impl] Sending heartbeat to https://servers-ingress-live.fivem.net/ingress
+[38;5;73m[ citizen-server-impl] Sending heartbeat to https://servers-ingress-live.fivem.net/ingress
 [38;5;73m[ citizen-server-impl] Sending heartbeat to https://servers-ingress-live.fivem.net/ingress

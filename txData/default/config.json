@@ -1,7 +1,7 @@
 {
   "global": {
     "serverName": "FX Server",
-    "language": "en"
+    "language": "fr"
   },
   "logger": {},
   "monitor": {
@@ -17,7 +17,6 @@
       1
     ]
   },
-  "statsCollector": {},
   "playerController": {
     "onJoinCheckBan": true,
     "onJoinCheckWhitelist": false,
@@ -25,7 +24,6 @@
     "whitelistRejectionMessage": "You are not yet whitelisted in this server.\nPlease join http://discord.gg/example.\nYour Request ID: <id>",
     "wipePendingWLOnStart": true
   },
-  "authenticator": {},
   "webServer": {},
   "discordBot": {
     "enabled": false,
@@ -33,9 +31,10 @@
     "statusMessage": "**IP:** `change-me:<port>`\n**Players:** <players>\n**Uptime:** <uptime>"
   },
   "fxRunner": {
-    "autostart": true,
     "serverDataPath": "C:/FXServer/txData/CFXDefault_A8F640.base/",
     "cfgPath": "C:/FXServer/txData/CFXDefault_A8F640.base/server.cfg",
-    "onesync": "on"
+    "onesync": "on",
+    "autostart": true,
+    "quiet": true
   }
 }

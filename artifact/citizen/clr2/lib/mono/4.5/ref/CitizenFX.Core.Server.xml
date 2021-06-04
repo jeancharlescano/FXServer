@@ -6739,6 +6739,11 @@
             This native converts the passed string to a hash.
             </summary>
         </member>
+        <member name="F:CitizenFX.Core.Native.Hash.GET_LANDING_GEAR_STATE">
+            <summary>
+            See the client-side [GET_LANDING_GEAR_STATE](#\_0x9B0F3DCA3DB0F4CD) native for a description of landing gear states.
+            </summary>
+        </member>
         <member name="F:CitizenFX.Core.Native.Hash.GET_LAST_PED_IN_VEHICLE_SEAT">
             <summary>
             Seat indexes:
@@ -6915,6 +6920,21 @@
                 CanBeBrokenIntoPersist = 8, -- Can be broken into persist
                 CannotBeTriedToEnter = 10, -- Cannot be tried to enter (Nothing happens when you press the vehicle enter key).
             }
+            </summary>
+        </member>
+        <member name="F:CitizenFX.Core.Native.Hash.GET_VEHICLE_FLIGHT_NOZZLE_POSITION">
+            <summary>
+            Gets the flight nozzel position for the specified vehicle. See the client-side [\_GET_VEHICLE_FLIGHT_NOZZLE_POSITION](#\_0xDA62027C8BDB326E) native for usage examples.
+            </summary>
+        </member>
+        <member name="F:CitizenFX.Core.Native.Hash.GET_VEHICLE_HOMING_LOCKON_STATE">
+            <summary>
+            Gets the lock on state for the specified vehicle. See the client-side [GET_VEHICLE_HOMING_LOCKON_STATE](#\_0xE6B0E8CFC3633BF0) native for a description of lock on states.
+            </summary>
+        </member>
+        <member name="F:CitizenFX.Core.Native.Hash.GET_VEHICLE_LOCK_ON_TARGET">
+            <summary>
+            Gets the vehicle that is locked on to for the specified vehicle.
             </summary>
         </member>
         <member name="F:CitizenFX.Core.Native.Hash.GET_VEHICLE_PED_IS_IN">
@@ -8243,6 +8263,17 @@
             This native converts the passed string to a hash.
             </summary>
         </member>
+        <member name="M:CitizenFX.Core.Native.API.GetLandingGearState(System.Int32)">
+            <summary>
+            See the client-side [GET_LANDING_GEAR_STATE](#\_0x9B0F3DCA3DB0F4CD) native for a description of landing gear states.
+            </summary>
+            <param name="vehicle">
+            The vehicle to check.
+            </param>
+            <returns>
+            The current state of the vehicles landing gear.
+            </returns>
+        </member>
         <member name="M:CitizenFX.Core.Native.API.GetLastPedInVehicleSeat(System.Int32,System.Int32)">
             <summary>
             Seat indexes:
@@ -8577,6 +8608,39 @@
             <summary>
             Currently it only works when set to "all players".
             </summary>
+        </member>
+        <member name="M:CitizenFX.Core.Native.API.GetVehicleFlightNozzlePosition(System.Int32)">
+            <summary>
+            Gets the flight nozzel position for the specified vehicle. See the client-side [\_GET_VEHICLE_FLIGHT_NOZZLE_POSITION](#\_0xDA62027C8BDB326E) native for usage examples.
+            </summary>
+            <param name="vehicle">
+            The vehicle to check.
+            </param>
+            <returns>
+            The flight nozzel position between 0.0 (flying normally) and 1.0 (VTOL mode)
+            </returns>
+        </member>
+        <member name="M:CitizenFX.Core.Native.API.GetVehicleHomingLockonState(System.Int32)">
+            <summary>
+            Gets the lock on state for the specified vehicle. See the client-side [GET_VEHICLE_HOMING_LOCKON_STATE](#\_0xE6B0E8CFC3633BF0) native for a description of lock on states.
+            </summary>
+            <param name="vehicle">
+            The vehicle to check.
+            </param>
+            <returns>
+            The lock on state.
+            </returns>
+        </member>
+        <member name="M:CitizenFX.Core.Native.API.GetVehicleLockOnTarget(System.Int32)">
+            <summary>
+            Gets the vehicle that is locked on to for the specified vehicle.
+            </summary>
+            <param name="vehicle">
+            The vehicle to check.
+            </param>
+            <returns>
+            The vehicle that is locked on. 0 returned if no vehicle is locked on.
+            </returns>
         </member>
         <member name="M:CitizenFX.Core.Native.API.GetVehiclePedIsIn(System.Int32,System.Boolean)">
             <summary>
